@@ -3,7 +3,7 @@ chrome.runtime.onInstalled.addListener((details) => {
     shows: [],
   })
   chrome.contextMenus.create({
-    title: "Test Context Menu",
+    title: "Search Movies",
     id: "contextMenu1",
     contexts: ["page", "selection"],
   })
